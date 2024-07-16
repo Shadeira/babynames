@@ -3,7 +3,7 @@ import React from 'react'
 export default function FavoriteNames({removeFromFavorites,favoriteNames}) {
   return (
     <div className='favorites-container'>
-   <p>Click a name to add to favorites</p>
+   <p>Click a name to add to favorite</p>
   
     {
         favoriteNames.map(name=>{
