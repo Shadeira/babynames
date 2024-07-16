@@ -46,7 +46,7 @@ const removeFromFavorites=(name)=>{
 
   return (
     <div>
-      <h1 className="title"> Baby Name Pickers </h1>
+      <h1 className="title"> Baby Name Picker</h1>
     <Input handleFilter={handleFilter} getAllNames={getAllNames}  getOnlyGirls={getOnlyGirls}  getOnlyBoys={getOnlyBoys} />
     <FavoriteNames removeFromFavorites={removeFromFavorites} favoriteNames={favoriteNames} />
     <div className="names-container">
